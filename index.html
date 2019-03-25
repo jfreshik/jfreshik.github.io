@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="ko">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="migration to development">
+<meta property="og:url" content="https://jfreshik.github.io/index.html">
+<meta property="og:site_name" content="migration to development">
+<meta property="og:locale" content="ko">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="migration to development">
+
+
+
+
+
+
+  <link rel="canonical" href="https://jfreshik.github.io/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>migration to development</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="ko">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">migration to development</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>홈</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>아카이브</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://jfreshik.github.io/2019/03/25/hexo-blog-02-hexo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jfreshik">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="migration to development">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/25/hexo-blog-02-hexo/" class="post-title-link" itemprop="url">Hexo + GitHub Pages 로 블로그 시작하기(2/3)</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">작성일</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2019-03-25 23:46:59 / Updated at: 17:32:58" itemprop="dateCreated datePublished" datetime="2019-03-25T23:46:59+00:00">2019-03-25</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="HEXO"><a href="#HEXO" class="headerlink" title="HEXO"></a>HEXO</h1><ul>
+<li><a href="#sec1">HEXO?</a></li>
+<li><a href="#sec2">HEXO 설치</a></li>
+<li><a href="#sec3">웹사이트 생성 및 확인</a></li>
+<li><a href="#sec4">새 글 작성</a></li>
+<li><a href="#sec5">GitHub Pages 준비</a></li>
+<li><a href="#sec6">웹사이트 배포</a></li>
+<li><a href="#sec7">테마 적용하기</a></li>
+<li><a href="#sec8">GitHub 로 Push</a></li>
+<li><a href="#sec9">정리</a></li>
+<li><a href="#sec10">참고</a></li>
+</ul>
+<h2 id="HEXO-1"><a href="#HEXO-1" class="headerlink" title="HEXO?"></a><a id="sec1"></a>HEXO?</h2><ul>
+<li>빠르고 간단하고 강력한 블로그 프레임워크</li>
+<li>정적 사이트 생성기</li>
+<li>가이드 문서: <a href="https://hexo.io/ko/index.html" target="_blank" rel="noopener">https://hexo.io/ko/index.html</a></li>
+</ul>
+<p>Markdown 으로 작성한 포스트를 테마가 적용된 정적 파일로 생성해준다.  </p>
+<h2 id="HEXO-설치"><a href="#HEXO-설치" class="headerlink" title="HEXO 설치"></a><a id="sec2"></a>HEXO 설치</h2><p>npm 을 이용하기 위해 node.js 가 미리 설치되어야 함</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># hexo-cli 를 '전역'으로 설치</span></span><br><span class="line">$ npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># hexo 버전 확인</span></span><br><span class="line">$ hexo version</span><br><span class="line">hexo-cli: 1.1.0</span><br><span class="line">...(생략)</span><br></pre></td></tr></table></figure>
+<h2 id="웹사이트-생성-및-확인"><a href="#웹사이트-생성-및-확인" class="headerlink" title="웹사이트 생성 및 확인"></a><a id="sec3"></a>웹사이트 생성 및 확인</h2><p>이름은 원하는 이름으로 생성하면 되지만, git repository 이름(blog)으로 맞추도록 하겠다.</p>
+<h3 id="로컬-웹사이트-생성"><a href="#로컬-웹사이트-생성" class="headerlink" title="로컬 웹사이트 생성"></a>로컬 웹사이트 생성</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># "blog" 폴더에 hexo 프레임워크 설치</span></span><br><span class="line"></span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># hexo 서버를 실행하기 위한 패키지 설치</span></span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<h3 id="디렉토리-구조-확인"><a href="#디렉토리-구조-확인" class="headerlink" title="디렉토리 구조 확인"></a>디렉토리 구조 확인</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+<ul>
+<li>_config.yml: 환경설정 파일</li>
+<li>source<ul>
+<li>_posts: 노출 될 post 를 markdown 파일로 저장하는 디렉토리</li>
+<li>_drafts: post 초안 파일을 저장하는 디렉토리</li>
+</ul>
+</li>
+<li>themes: 테마 패키지들이 저장 된 디렉토리</li>
+</ul>
+<h3 id="로컬-웹사이트-실행"><a href="#로컬-웹사이트-실행" class="headerlink" title="로컬 웹사이트 실행"></a>로컬 웹사이트 실행</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="블로그-확인"><a href="#블로그-확인" class="headerlink" title="블로그 확인"></a>블로그 확인</h3><p><a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 으로 접속</p>
+<h2 id="새-글-작성"><a href="#새-글-작성" class="headerlink" title="새 글 작성"></a><a id="sec4"></a>새 글 작성</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 새 post markdown 파일 생성</span></span><br><span class="line">$ hexo new post <span class="string">"first post"</span></span><br><span class="line"><span class="comment"># 생성 된 markdown 파일 이름 확인</span></span><br><span class="line">$ ls <span class="built_in">source</span>/_posts</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>NOTE: _config.yml 에 new post 로 생성하는 파일명 규칙을 지정할 수 있다.</p>
+</blockquote>
+<p>사용하기 편한 마크다운 에디터를 이용해 파일에 내용을 추가하고 저장한다.</p>
+<ul>
+<li><a href="https://code.visualstudio.com" target="_blank" rel="noopener">visual studio code</a><blockquote>
+<p>마켓플레이스에서 markdown 확장을 추가 설치해 주어야 함</p>
+</blockquote>
+</li>
+<li><a href="https://stackedit.io" target="_blank" rel="noopener">stackedit.io</a><blockquote>
+<p>설치가 필요 없이 웹에서 바로 작성.</p>
+</blockquote>
+</li>
+</ul>
+<p>hexo 서버가 실행 중이면 브라우저를 refresh 해 추가 된 포스트 확인.</p>
+<h2 id="GitHub-Pages-준비"><a href="#GitHub-Pages-준비" class="headerlink" title="GitHub Pages 준비"></a><a id="sec5"></a>GitHub Pages 준비</h2><p>github repository 생성 blog<br>hexo deploy 대상이 git 이면 publish 결과물은 gh-pages 브랜치로 푸시 된다.<br>리포지토리만 만들어 두고, 배포 한 후에 설정 확인해보자.</p>
+<h2 id="웹사이트-배포"><a href="#웹사이트-배포" class="headerlink" title="웹사이트 배포"></a><a id="sec6"></a>웹사이트 배포</h2><h3 id="git-으로-배포하기-위한-plugin-설치"><a href="#git-으로-배포하기-위한-plugin-설치" class="headerlink" title="git 으로 배포하기 위한 plugin 설치"></a>git 으로 배포하기 위한 plugin 설치</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="config-yml-설정"><a href="#config-yml-설정" class="headerlink" title="_config.yml 설정"></a>_config.yml 설정</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="comment"># 접속 경로 설정. </span></span><br><span class="line"><span class="attr">url:</span> <span class="attr">https://jfreshik.github.io</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/blog/</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>NOTE: 로컬에서는 잘 보이는데, github pages 로 배포하면 페이지를 찾을 수 없다고 나오는 경우 URL과 root 설정값을 확인해 보자.  </p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="comment"># deploy 설정.</span></span><br><span class="line"><span class="comment"># repo에 GitHub Pages 를 위해 만든 git repository 주소를 적어주자.</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/jfreshik/blog.git</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>NOTE: deploy branch 는 “gh-pages” 가 default 이다. master 로 배포하려면 branch 값을 꼭 설정해 주자.</p>
+</blockquote>
+<h3 id="배포"><a href="#배포" class="headerlink" title="배포!"></a>배포!</h3><p>markdown 을 정적파일로 생성해 github 로 푸시하는 과정이다.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br><span class="line"></span><br><span class="line">or</span><br><span class="line"></span><br><span class="line">$ hexo clean</span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>NOTE: 간혹 변경 사항이 업데이트 안되어 deploy 되는 경우가 있다. 이 때에는 ‘clean’ 후에 generate,deploy 해주면 된다.</p>
+</blockquote>
+<h3 id="배포-결과-확인"><a href="#배포-결과-확인" class="headerlink" title="배포 결과 확인:"></a>배포 결과 확인:</h3><ul>
+<li><a href="https://jfreshik.github.io/blog/">https://jfreshik.github.io/blog/</a></li>
+</ul>
+<h2 id="테마-적용하기"><a href="#테마-적용하기" class="headerlink" title="테마 적용하기"></a><a id="sec7"></a>테마 적용하기</h2><p>마음에 드는 테마를 찾아보자.<br>테마를 다운로드 받는다.</p>
+<h2 id="GitHub-로-Push"><a href="#GitHub-로-Push" class="headerlink" title="GitHub 로 Push"></a><a id="sec8"></a>GitHub 로 Push</h2><p>.gitignore 파일 추가<br>master 로 푸시</p>
+<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a><a id="sec9"></a>정리</h2><h2 id="참고"><a href="#참고" class="headerlink" title="참고"></a><a id="sec10"></a>참고</h2><ul>
+<li><a href="https://hexo.io/ko/docs/" target="_blank" rel="noopener">https://hexo.io/ko/docs/</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://jfreshik.github.io/2019/03/25/hexo-blog-01-githubpages/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jfreshik">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="migration to development">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/25/hexo-blog-01-githubpages/" class="post-title-link" itemprop="url">Hexo + GitHub Pages 로 블로그 시작하기(1/3)</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">작성일</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2019-03-25 23:46:46 / Updated at: 17:32:58" itemprop="dateCreated datePublished" datetime="2019-03-25T23:46:46+00:00">2019-03-25</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="GitHub-Pages-시작하기"><a href="#GitHub-Pages-시작하기" class="headerlink" title="GitHub Pages 시작하기"></a>GitHub Pages 시작하기</h1><ul>
+<li><a href="#sec1">GitHub Pages?</a></li>
+<li><a href="#sec2">GitHub Pages 접속 주소 결정하기</a></li>
+<li><a href="#sec3">GitHub Pages 용 Repository 생성하기</a></li>
+<li><a href="#sec4">GitHub Pages 에 파일 푸시</a></li>
+<li><a href="#sec5">GitHub Pages 확인</a></li>
+<li><a href="#sec6">정리</a></li>
+<li><a href="#sec7">참고</a></li>
+</ul>
+<h2 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages?"></a><a id="sec1"></a>GitHub Pages?</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository.</span><br></pre></td></tr></table></figure>
+<ul>
+<li>html, js, css 등 정적 파일을 호스팅 해주는 서비스이다.  </li>
+</ul>
+<p>github 계정이 있으니 블로그용 repository 하나 생성하고, 적절한? 설정만 해주면 내가 만든 웹페이지를 브라우저에서 바로 볼 수 있다.</p>
+<h2 id="GitHub-Pages-접속-주소-결정하기"><a href="#GitHub-Pages-접속-주소-결정하기" class="headerlink" title="GitHub Pages 접속 주소 결정하기"></a><a id="sec2"></a>GitHub Pages 접속 주소 결정하기</h2><p>git repository 이름에 따라에 아래 두가지 형태의 URL 을 사용할 수 있다. (rule)</p>
+<table>
+<thead>
+<tr>
+<th>URL pattern</th>
+<th style="text-align:center">repository</th>
+<th style="text-align:center">결과</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>https://{id}.github.io</td>
+<td style="text-align:center">jfreshik.github.io</td>
+<td style="text-align:center"><a href="https://jfreshik.github.io">https://jfreshik.github.io</a></td>
+<td>master 브랜치만 퍼블리시용으로 사용</td>
+</tr>
+<tr>
+<td>https://{id}.github.io/{repository}/</td>
+<td style="text-align:center">blog</td>
+<td style="text-align:center"><a href="https://jfreshik.github.io/blog">https://jfreshik.github.io/blog</a></td>
+<td>설정에 따라 퍼블리시 브랜치를 gh-pages,master 둘 중 하나 선택</td>
+</tr>
+</tbody>
+</table>
+<h2 id="GitHub-Pages-용-Repository-생성하기"><a href="#GitHub-Pages-용-Repository-생성하기" class="headerlink" title="GitHub Pages 용 Repository 생성하기"></a><a id="sec3"></a>GitHub Pages 용 Repository 생성하기</h2><p>퍼블리시 결과 뿐만 아니라 post,plugin,theme 도 같이 관리하기 위해 “blog” 리포지토리를 사용<br><a href="https://jfreshik.github.io/blog/">https://jfreshik.github.io/blog/</a>  </p>
+<p>repository screenshot</p>
+<h2 id="GitHub-Pages-에-파일-푸시"><a href="#GitHub-Pages-에-파일-푸시" class="headerlink" title="GitHub Pages 에 파일 푸시"></a><a id="sec4"></a>GitHub Pages 에 파일 푸시</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 로컬 작업 directory 생성 및 이동</span></span><br><span class="line">$ mkdir blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># index.html 생성</span></span><br><span class="line">$ <span class="built_in">echo</span> <span class="string">"Hello GitHub Pages"</span> &gt;&gt; index.html</span><br><span class="line"></span><br><span class="line"><span class="comment"># local repository</span></span><br><span class="line">$ git init</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">"init commit"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># github 저장소 추가</span></span><br><span class="line">$ git remote add origin https://github.com/jfreshik/blog.git</span><br><span class="line"></span><br><span class="line"><span class="comment"># github 저장소로 master push</span></span><br><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure>
+<h2 id="GitHub-Pages-확인"><a href="#GitHub-Pages-확인" class="headerlink" title="GitHub Pages 확인"></a><a id="sec5"></a>GitHub Pages 확인</h2><h3 id="페이지-접속-확인"><a href="#페이지-접속-확인" class="headerlink" title="페이지 접속 확인"></a>페이지 접속 확인</h3><p><a href="https://jfreshik.github.io/blog/">https://jfreshik.github.io/blog/</a></p>
+<h3 id="Source-설정"><a href="#Source-설정" class="headerlink" title="Source 설정"></a>Source 설정</h3><blockquote>
+<p>GitHub blog repository &gt; Settings &gt; GitHub Pages</p>
+</blockquote>
+<ul>
+<li>master 로 푸시 했으니 source 설정을 “master branch” 로 선택  </li>
+<li>source 설정을 “gh-pages” 로 선택하면, master 브랜치에는 hexo 서버 소스(post, plugin, theme)를 푸시하고, publish 결과물을 gh-pages 브랜치로 푸시해 하나의 repository 로 관리할 수 있다.</li>
+</ul>
+<h3 id="재확인"><a href="#재확인" class="headerlink" title="재확인"></a>재확인</h3><p><a href="https://jfreshik.github.io/blog/">https://jfreshik.github.io/blog/</a><br>혹시 404 not found 가 다시 노출 되면 url 경로 마지막에 ‘/‘ 가 빠지지 않았는지 확인!!</p>
+<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a><a id="sec6"></a>정리</h2><ul>
+<li>파일을 업로드 하기 위해 ftp 등의 서버접속을 할 필요가 없어 아주아주 편리하다.</li>
+<li>repository 설정에서 서비스 운영에 적합한 GitHub Pages “Source” 를 선택하자.</li>
+</ul>
+<h2 id="참고"><a href="#참고" class="headerlink" title="참고"></a><a id="sec7"></a>참고</h2><ul>
+<li><a href="https://pages.github.com/" target="_blank" rel="noopener">https://pages.github.com/</a>  </li>
+<li><a href="https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages" target="_blank" rel="noopener">https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://jfreshik.github.io/2019/03/25/hexo-blog-00-intro/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jfreshik">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="migration to development">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/25/hexo-blog-00-intro/" class="post-title-link" itemprop="url">Hexo + GitHub Pages 로 블로그 시작하기(0)</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">작성일</span>
+              
+
+              
+                
+              
+
+              <time title="Post created: 2019-03-25 23:46:29 / Updated at: 17:32:58" itemprop="dateCreated datePublished" datetime="2019-03-25T23:46:29+00:00">2019-03-25</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>기억력이 좋지 못해 어디에든 기록을 남길 필요성이 커져 가고 있다.</p>
+<p>포탈 블로그들로 시작해 볼까 하던차에 HEXO 에 대해 알게 되었다.<br>블로그 내용은 markdown 으로 작성하고, hexo로 theme 를 적용해 퍼블리시하면 나만의 블로그가 뿅~ 나타난다.<br>오~ ㅋ</p>
+<ol>
+<li>GitHub Pages 로 블로그 호스팅 하기</li>
+<li>Hexo 를 이용해 이쁜 블로그 만들기</li>
+<li>Travis 로 배포를 간편하게!</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">jfreshik</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">포스트</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">태그</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">jfreshik</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
